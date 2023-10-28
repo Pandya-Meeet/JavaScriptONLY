@@ -1,4 +1,5 @@
 const compareSets = (a, b) => a.size === b.size && [...a].every(e => b.has(e))
+//this code finds out the shortest substring possible
 
 function shortestSubstring(s) {
     let len = s.length
